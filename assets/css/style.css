@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 400;
   line-height: 56px;
   color: #fff;
@@ -296,8 +296,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero p {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
 }
 #hero p span {
   color: #fff;
@@ -319,6 +319,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+
+  #hero p {
+    font-size: 22px;
+    line-height: 36px;
   }
 }
 
