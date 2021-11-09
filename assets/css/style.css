@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
+  background: #000;
 }
 
 a {
@@ -597,6 +598,8 @@ height: 100%;
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
+  background: #000;
+  height: 100vh;
 }
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
@@ -648,9 +651,10 @@ height: 100%;
 
 .portfolio-details .btn-get-started {
   margin-top: 30px;
+  margin-right: 10px;
   line-height: 0;
-  padding: 15px 40px;
-  border-radius: 4px;
+  padding: 15px 15px;
+  border-radius: 0px;
   transition: 0.5s;
   color: #fff;
   background: #4154f1;
@@ -659,10 +663,10 @@ height: 100%;
 }
 
 .portfolio-details .btn-get-started span {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 
 .portfolio-details .btn-get-started i {
@@ -727,7 +731,7 @@ height: 100%;
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  background: #999;
+  background: #f0f4f8;
 
 }
 
@@ -740,7 +744,8 @@ height: 100%;
   min-height: 100px;
 }
 .testimonials .testimonial-item .testimonial-img {
-  width: 200px;
+
+  height: 60px;
   border-radius: 0%;
   margin: 0 auto;
 }
@@ -749,13 +754,7 @@ height: 100%;
   margin-top: 0px;
   position: relative;
 }
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #149ddd;
-}
+
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
@@ -926,12 +925,38 @@ height: 100%;
   }
 }
 
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  background: #f0f4f8;
+  padding: 15px 0;
+  text-align: center;
+}
+.clients img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+.clients img:hover {
+  filter: none;
+  transform: scale(1.15);
+}
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background: #f9f9f9;
+  background: #000;
 }
 .breadcrumbs h2 {
   font-size: 26px;
