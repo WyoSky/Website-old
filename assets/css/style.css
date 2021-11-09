@@ -76,6 +76,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #040b14;
   overflow-y: auto;
 }
+
+
+
 #header .profile img {
   margin: 15px auto;
   display: block;
@@ -96,14 +99,14 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 #header .profile .social-links a {
-  font-size: 18px;
+  font-size: 25px;
   display: inline-block;
-  background: #;
+  background: #000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
-  border-radius: 50%;
+  border-radius: 5%;
   text-align: center;
   width: 36px;
   height: 36px;
