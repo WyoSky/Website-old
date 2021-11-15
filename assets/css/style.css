@@ -599,6 +599,24 @@ height: 100%;
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
+.portfolio-details .social-links a {
+  font-size: 16px;
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  margin-right: 10px;
+  border-radius: 5%;
+  text-align: center;
+
+  transition: 0.3s;
+}
+.portfolio-details .social-links a:hover {
+  background: #149ddd;
+  color: #fff;
+  text-decoration: none;
+}
+
 .portfolio-details {
   padding-top: 40px;
   background: #000;
